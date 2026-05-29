@@ -1,9 +1,9 @@
 <template>
   <section
     class="relative min-h-screen bg-cover bg-center flex items-center justify-center overflow-hidden"
-    style="background-image: url('/images/4.png');"
+    style="background-image: url('/src/Assets/Image/4.png');"
   >
-
+    
     <!-- Dark Overlay -->
     <div class="absolute inset-0 bg-black/60"></div>
 
@@ -11,9 +11,7 @@
     <div class="relative z-10 text-center px-6 max-w-4xl">
 
       <!-- Title -->
-      <h1 class="text-white text-4xl font-bold mb-8">
-        WELCOME TO RWANDA
-      </h1>
+      <h1 class="text-white text-4xl font-bold mb-8">WELCOME TO RWANDA</h1>
 
       <!-- Subtitle -->
       <p class="text-xl md:text-2xl text-green-300 mb-8">
@@ -35,17 +33,14 @@
         </button>
 
         <button
-          class="border border-white text-white hover:bg-black hover:text-gray-300 px-6 py-3 rounded-full font-semibold transition duration-300"
+          class="bg-white px-6 py-3 rounded-full font-semibold transition duration-300"
         >
           Visit Rwanda
         </button>
       </div>
+      <div class="text-white text-4xl">
 
-      <!-- Section Title -->
-      <div class="text-white">
-        <h2 class="text-3xl font-bold hover:underline mt-16 mb-6">
-          Top Attractions in Rwanda
-        </h2>
+      <h2 class="text-3xl font-bold hover:underline mt-16 mb-6">Top Attractions in Rwanda</h2>
       </div>
 
       <!-- Image Cards -->
@@ -54,14 +49,12 @@
         <!-- Card 1 -->
         <div class="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
           <img
-            src="/images/go.png"
+            src="/src/assets/Image/go.png"
             alt="Gorilla"
             class="w-full h-52 object-cover"
           />
           <div class="p-4">
-            <h3 class="text-white text-2xl font-bold mb-2">
-              Mountain Gorillas
-            </h3>
+            <h3 class="text-white text-2xl font-bold mb-2">Mountain Gorillas</h3>
             <p class="text-gray-200 text-sm">
               Experience Rwanda’s famous gorilla trekking adventures.
             </p>
@@ -71,14 +64,12 @@
         <!-- Card 2 -->
         <div class="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
           <img
-            src="/images/lake.png"
+            src="/src/assets/Image/lake.png"
             alt="Lake Kivu"
             class="w-full h-52 object-cover"
           />
           <div class="p-4">
-            <h3 class="text-white text-2xl font-bold mb-2">
-              Lake Kivu
-            </h3>
+            <h3 class="text-white text-2xl font-bold mb-2">Lake Kivu</h3>
             <p class="text-gray-200 text-sm">
               Relax at one of Africa’s most beautiful freshwater lakes.
             </p>
@@ -88,14 +79,12 @@
         <!-- Card 3 -->
         <div class="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
           <img
-            src="/images/kgl.jpg"
+            src="/src/assets/Image/kgl.jpg"
             alt="Kigali City"
             class="w-full h-52 object-cover"
           />
           <div class="p-4">
-            <h3 class="text-white text-2xl font-bold mb-2">
-              Kigali City
-            </h3>
+            <h3 class="text-white text-2xl font-bold mb-2">Kigali City</h3>
             <p class="text-gray-200 text-sm">
               Explore the clean and modern capital city of Rwanda.
             </p>
