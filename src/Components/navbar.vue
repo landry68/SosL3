@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-green-800 text-white flex px-8 py-4 items-center justify-between shadow-lg">
     
-    <img src="../Assets/Image/logo.png" alt="" class="h-10 w-20">
+    <img src="../assets/Image/logo.png" alt="" class="h-10 w-20">
 
     <ul class="flex gap-8 text-sm font-medium justify-end items-center">
 
